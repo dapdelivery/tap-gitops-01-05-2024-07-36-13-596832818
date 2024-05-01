@@ -1,0 +1,31 @@
+secrets:
+    sops:
+        age_key: ENC[AES256_GCM,data:pfC2ZTPSByKJHQxXLAaJwCotOEuJMO1bQ9+nX3cQUyaqVrvryI65AWMohlLf9S+7yuMDDFQ+1cCKbnIdH+HILoz0QPweTbCp4UA0,iv:71bko0VwBYP4pVoi5hSf7haY+dppQGkKrHx2s1ttu2A=,tag:0aV/payk546qobfeC2yCJg==,type:str]
+        registry:
+            hostname: ENC[AES256_GCM,data:7gxJc9Axh4nQb2zYJLkv5044J2cDNhhe0w==,iv:cdy4B2pxKgCM8Wk7X8RgxDC4gAFb1fiWIIaa8sjFMSc=,tag:LyTBmgoVaPMkXLU/jpewRQ==,type:str]
+            username: ENC[AES256_GCM,data:zrhyZ15LHIizLmQv6hkXsverWH2fgI5Iqw==,iv:IEX/0+Qn/sTa6BPbtpJUuTm1M38gSj3ub9Vc68xDK5k=,tag:p0WngfG66UCWngsCB4ZeHA==,type:str]
+            password: ENC[AES256_GCM,data:bA4ZjOw3plSixP0stB0=,iv:7oriw2hqwEj5zoyWzQEzysucowrBbIj3bHHJHllthpo=,tag:1vfGsUPIR0y4Z5qzHcOvcg==,type:str]
+        git:
+            basic_auth:
+                username: ENC[AES256_GCM,data:s1/uVS4KuGxl9Xk=,iv:EIqMCifdR+nuueW0MWbLaIY2CEam+QMhsTI9mF3dy6U=,tag:9Ajze9s2jjyhvL8bS60aFQ==,type:str]
+                password: ENC[AES256_GCM,data:8svkoKlyclpBkHKMbhRwWxMRCbe3bhCBDTg7pJK+2qH1vhT7XTlScA==,iv:OSMofGm0AtPLIRMS433iH8W51gXgYpbZU0BqTCRzYq4=,tag:mxwdOTbwc6xK++qQB2Jw0Q==,type:str]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age140kfw9jqh7d63svrgf8rpjaf8mteg507va4s98pnjtl975qe6stqfpaxvv
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB2ZVZaUyt2TEJHOFhtbmFT
+            UUtsaHlUN1p4aE9keUo5aVQ4ek5jU1BXRmhRClY4WCtCRG9xdldqeXJSNEZDWE9H
+            NDFPdXI4cU1QT1VBYkZYdUFMaTlxN3cKLS0tIEJ5d0JvRTNVWHMwRlNxdGplLzF2
+            QTJKQW9ZejNKVm4xVmVLL2tqS1daVjQKAsL/83QIUafE23dSibPnXtwUU0T3mdO7
+            8MnNXR6ZPoqQT2EQxdMYb8V2089i0EUrkWLg84G5iITa47MqM32DNA==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2024-05-01T09:03:35Z"
+    mac: ENC[AES256_GCM,data:nSZsaJ0J24tff9Ni+z944DxFKys7AQCtBa5Bofvdkk3zXe30JztZXbntf3Fes44TOnc11Qej8+O+jw1SHgO15eL3r2rYbYMGSnGPwdKI857cUP39n97TuDVfRXZFq2gVqXUFyaHGxS6aqt449z9lVnEe2qL5v386OvQVdRMRSp0=,iv:6UWo82bcSCqy4THPjWQakSxJZOokFhQrJSx/NWAlS9I=,tag:fqM2ynlr/dzTIup/lSm2rw==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.7.3
